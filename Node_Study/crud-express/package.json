@@ -1,0 +1,18 @@
+{
+  "name": "crud-express",
+  "version": "1.0.0",
+  "description": "学生信息的增删改查 功能：\t访问首页：显示所有的学生信息； \t\t点击新增：跳转到新增页面，提交以后重定向到首页，并完成添加 \t\t点击编辑：跳转到新增页面，默认有学生的信息，提交以后重定向到首页，并更新刚编辑的学生信息 \t\t点击删除：直接删除信息",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-art-template": "^1.0.1"
+  }
+}
