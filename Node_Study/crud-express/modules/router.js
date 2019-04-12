@@ -2,10 +2,8 @@
 var express = require("express");
 var router = express.Router();
 
-var fs = require("fs");
 //学生数据信息
 var Student = require("./data.js");
-var file = "./data.json";
 
 //当用户访问/，读取数据，返回学生信息
 router.get('/',function(req,res){
